@@ -9,123 +9,83 @@ export class ProductService {
   private products: Product[] = [
     {
       id: 1,
-      name: 'Baba',
-      description: 'Labubu',
-      price: 1000.99,
-      image: 'assets/baba.jfif',
-      category: 'Stuff Toy'
+      name: 'Faerie Fire',
+      description: 'The ethereal flames from the ever-burning ruins of Kindertree ignite across realities.',
+      price: 65,
+      image: 'assets/Faerie Fire.jfif',
+      category: 'Item'
     },
     {
       id: 2,
-      name: 'Dada',
-      description: 'Labubu',
-      price: 1090,
-      image: 'assets/dada.jfif',
-      category: 'Stuff Toy'
+      name: 'Enchanted Mango',
+      description: 'The bittersweet flavors of Jidi Isle are irresistible to amphibians.',
+      price: 65,
+      image: 'assets/Enchanted Mango.jfif',
+      category: 'Item'
     },
     {
       id: 3,
-      name: 'hehe',
-      description: 'Labubu',
-      price: 1090.99,
-      image: 'assets/hehe.jfif',
-      category: 'Stuff Toy'
+      name: 'Smoke of Deceit',
+      description: 'The charlatan wizard Myrddins only true contribution to the arcane arts.',
+      price: 50,
+      image: 'assets/Smoke of Deceit .jfif',
+      category: 'Item'
     },
     {
       id: 4,
-      name: 'Ququ',
-      description: 'Labubu',
-      price: 1000.99,
-      image: 'assets/ququ.jfif',
-      category: 'Stuff Toy'
+      name: 'Healing Salve',
+      description: 'A magical salve that can quickly mend even the deepest of wounds.',
+      price: 100,
+      image: 'assets/Healing Salve.jfif',
+      category: 'Item'
     },
     {
       id: 5,
-      name: 'Sisi',
-      description: 'Labubu',
-      price: 2400.69,
-      image: 'assets/sisi.jfif',
-      category: 'Stuff Toy'
+      name: 'Clarity',
+      description: 'Clear water that enhances the ability to meditate.',
+      price: 50,
+      image: 'assets/clarity .jfif',
+      category: 'Item'
     },
     {
       id: 6,
-      name: 'Zizi',
-      description: 'Labubu',
-      price: 1590.79,
-      image: 'assets/zizi.jfif',
-      category: 'Stuff Toy'
+      name: 'Blood Grenade',
+      description: 'Throws a grenade at the target area. Enemies in the area will take 50 damage on impact, be slowed by 15% and take 15 damage per second.',
+      price: 50,
+      image: 'assets/Blood Grenade.jfif',
+      category: 'Item'
     },
     {
-      id: 6,
-      name: 'kittyfit',
-      description: 'Labubu Outfit',
-      price: 1990.29,
-      image: 'assets/hellokittyoutfit.jfif',
-      category: 'Stuff Toy'
+      id: 7,
+      name: 'Observer Wards',
+      description: 'A form of half-sentient plant, often cultivated by apprentice wizards.',
+      price: 50,
+      image: 'assets/observer wards.jfif',
+      category: 'Item'
     },
     {
-      id: 6,
-      name: 'Lovefit',
-      description: 'Labubu Outfit',
-      price: 1239.99,
-      image: 'assets/lovefit.jfif',
-      category: 'Stuff Toy'
+      id: 8,
+      name: 'Dust of Appearance',
+      description: 'One may hide visage, but never volume.',
+      price: 80,
+      image: 'assets/Dust of Appearance.jfif',
+      category: 'Item'
     },
     {
-      id: 6,
-      name: 'Outfit 101',
-      description: 'Labubu Outfit',
-      price: 1267.99,
-      image: 'assets/outfit1.jfif',
-      category: 'Stuff Toy'
+      id: 9,
+      name: 'Iron Branch',
+      description: 'A seemingly ordinary branch, its ironlike qualities are bestowed upon the bearer.',
+      price: 50,
+      image: 'assets/Iron Branch.jfif',
+      category: 'Item'
     },
     {
-      id: 6,
-      name: 'Outfit 102',
-      description: 'Labubu Outfit',
-      price: 1090.99,
-      image: 'assets/outfit2.jfif',
-      category: 'Stuff Toy'
-    },
-    {
-      id: 6,
-      name: 'Outfit 103',
-      description: 'Labubu Outfit',
-      price: 1090.99,
-      image: 'assets/outfit3.jfif',
-      category: 'Stuff Toy'
-    },
-    {
-      id: 6,
-      name: 'Outfit 104',
-      description: 'Labubu Outfit',
-      price: 1090.99,
-      image: 'assets/outfit4.jfif',
-      category: 'Stuff Toy'
-    },
-    {
-      id: 6,
-      name: 'Outfit 105',
-      description: 'Labubu Outfit',
-      price: 1090.99,
-      image: 'assets/outfit5.jfif',
-      category: 'Stuff Toy'
-    },
-    {
-      id: 6,
-      name: 'Outfit 106',
-      description: 'Labubu Outfit',
-      price: 1090.99,
-      image: 'assets/outfit6.jfif',
-      category: 'Stuff Toy'
-    },
-    {
-      id: 6,
-      name: 'Outfit 107',
-      description: 'Labubu Outfit',
-      price: 1090.99,
-      image: 'assets/outfit7.jfif',
-      category: 'Stuff Toy'
+      id: 10,
+      name: 'Tango',
+      description: 'Forage to survive on the battlefield.',
+      price: 90,
+      image: 'assets/tango.jfif',
+      category: 'Item'
     },
   ];
 
